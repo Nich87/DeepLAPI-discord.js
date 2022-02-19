@@ -1,7 +1,7 @@
 'use strict';
 
 const {Client, Intents} = require('discord.js');
-const client = new Discord.Client({
+const client = new Client({
     intent: Object.keys(Intents.FLAGS)
 });
 const translate = require("deepl");
